@@ -40,9 +40,9 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenContact }) => {
       <div className="shell flex items-center justify-between">
         <a href="#" className="flex items-center gap-3 group">
           <img
-            src={asset("/app-icon.png")}
+            src={asset("/logo.png")}
             alt=""
-            className="w-9 h-9 rounded-[10px] object-contain transition-transform group-hover:scale-105"
+            className="w-9 h-9 object-contain transition-transform group-hover:scale-105"
           />
           <span className="font-sans font-semibold text-[19px] tracking-tight text-ink">
             Sortla

@@ -6,9 +6,9 @@ export const Footer: React.FC = () => (
     <div className="shell flex items-center justify-between gap-4">
       <div className="flex items-center gap-3">
         <img
-          src={asset("/app-icon.png")}
+          src={asset("/logo.png")}
           alt=""
-          className="w-[38px] h-[38px] rounded-[10px] object-contain"
+          className="w-[38px] h-[38px] object-contain"
         />
         <span className="font-sans font-normal text-[20px] text-black">Sortla</span>
       </div>
