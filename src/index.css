@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Editorial serif used for every section heading in the Figma frame.
+       Cheltenham is the design source; the web stack falls back to the
+       closest sturdy, lining-figure serifs available. */
+    --font-heading: 'Cheltenham', 'ITC Cheltenham', 'Source Serif 4', 'Newsreader',
+      Georgia, 'Times New Roman', serif;
+    --font-body: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+  }
+}
+
+@layer components {
+  /* Content column: 1050px wide inside the 1512px Figma frame */
+  .shell {
+    @apply w-full max-w-[1098px] mx-auto px-6;
+  }
+
+  /* Section heading — serif, bold, tight */
+  .h-section {
+    font-family: var(--font-heading);
+    @apply font-bold text-[34px] sm:text-[42px] md:text-[49px] leading-[1.14] tracking-[-0.01em];
+  }
+
+  /* Standfirst under every section heading */
+  .p-lede {
+    font-family: var(--font-body);
+    @apply font-normal text-[16px] sm:text-[18px] md:text-[20px] leading-[1.6];
+  }
+
+  /* Card title / body inside the 3-up grids */
+  .h-card {
+    font-family: var(--font-body);
+    @apply font-bold text-[19px] sm:text-[22px] leading-[1.35];
+  }
+
+  .p-card {
+    font-family: var(--font-body);
+    @apply font-normal text-[16px] sm:text-[18px] leading-[1.6];
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-track {
+  background: #e8eeea;
+}
+::-webkit-scrollbar-thumb {
+  background: #b9c5bd;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9aa79e;
+}
