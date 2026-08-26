@@ -6,15 +6,15 @@ const cards = [
     title: 'Private by design',
     description:
       'Every frame is processed on the device itself. No cloud, no accounts, no footage leaving the room.',
-    image: '/ob-camera.jpg',
-    imageAlt: 'The Sortla camera mounted on the wall above the labelled bins',
+    image: '/tech-private.jpg',
+    imageAlt: 'A phone showing its privacy settings, lit only by the screen',
   },
   {
     title: 'Custom Trained',
     description:
       'We can custom train the model for your specific case, to make the system even more reliable.',
-    image: '/ob-track.png',
-    imageAlt: 'Waste streams broken down into charts',
+    image: '/tech-custom-trained.jpg',
+    imageAlt: 'Someone reading charts on a tablet',
   },
 ];
 

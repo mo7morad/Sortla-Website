@@ -16,7 +16,7 @@ export const HeroSection: React.FC = () => {
 
           <p className="p-lede mt-5 text-[#2C3A30] max-w-[520px]">
             Sortla watches your bins and shows people exactly where each item belongs. Everything
-            runs on the device in the room — no cloud, no accounts, no rewiring.
+            runs on the device in the room. No cloud, no accounts, no rewiring.
           </p>
 
           <button
