@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
-import { HowItWorksSection } from './components/HowItWorksSection';
+import { SmartSortingSection } from './components/SmartSortingSection';
 import { ThreeBinsSection } from './components/ThreeBinsSection';
 import { StatsDashboardSection } from './components/StatsDashboardSection';
 import { TechSection } from './components/TechSection';
@@ -19,7 +19,7 @@ export const App: React.FC = () => {
 
       <main className="flex-grow">
         <HeroSection />
-        <HowItWorksSection />
+        <SmartSortingSection />
 
         {/* Bins and stats share one continuous dark block, split by a hairline */}
         <section id="three-bins" className="w-full bg-dark text-white">

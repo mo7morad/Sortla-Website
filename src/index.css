@@ -44,7 +44,7 @@
     @apply font-normal text-[16px] sm:text-[18px] md:text-[20px] leading-[1.6];
   }
 
-  /* Card title / body inside the 3-up grids */
+  /* Card title / body inside the card grids */
   .h-card {
     font-family: var(--font-body);
     @apply font-bold text-[19px] sm:text-[22px] leading-[1.35];
@@ -52,7 +52,7 @@
 
   .p-card {
     font-family: var(--font-body);
-    @apply font-normal text-[16px] sm:text-[18px] leading-[1.6];
+    @apply font-normal text-[16px] sm:text-[20px] leading-[1.6];
   }
 }
 
