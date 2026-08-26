@@ -228,7 +228,7 @@ const Dashboard: React.FC = () => {
 
 export const StatsDashboardSection: React.FC = () => (
   <div id="stats" className="shell pt-14 md:pt-[58px] pb-16 md:pb-[92px]">
-    <h2 className="h-section text-white">Check your waste stream (stats)</h2>
+    <h2 className="h-section text-white">Check your waste recap</h2>
     <p className="p-lede mt-3 text-white/80 max-w-[905px]">
       Every throw becomes data. See generated versus misplaced waste, watch bins fill, and export it
       all as CSV for your sustainability report.

@@ -169,21 +169,6 @@ export const ThreeBinsSection: React.FC = () => {
         })}
       </div>
 
-      {/* Sorting verdict — plain text, not a card */}
-      <p className="mt-8 mx-auto max-w-[810px] text-center font-sans text-[15px] sm:text-[16px] leading-[1.7] text-white/70">
-        <span className="text-white/95">
-          {active.name} → {active.bin.charAt(0).toUpperCase() + active.bin.slice(1)}
-        </span>
-        <span className="mx-2 text-white/30">·</span>
-        {active.rationale}
-      </p>
-
-      {/* The dirty-recyclable footnote */}
-      <p className="mt-9 mx-auto max-w-[820px] text-center font-sans font-normal text-[14px] sm:text-[15px] leading-[1.75] text-white/75">
-        !The dirty-recyclable save. A cup half full of coffee isn't trash, it's a rinsable
-        recyclable. Sortla flags it in the moment: "If cleaned, can be recyclable."
-      </p>
-
       <div className="mt-12 md:mt-[56px] border-t border-sortla-hairDark" />
     </div>
   );
