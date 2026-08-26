@@ -1,5 +1,5 @@
 import React from 'react';
-import { asset } from '../lib/asset';
+import heroIllustration from '../assets/hero-illustration.jpg';
 import { ArrowDown } from 'lucide-react';
 
 export const HeroSection: React.FC = () => {
@@ -31,8 +31,8 @@ export const HeroSection: React.FC = () => {
 
         <div className="relative">
           <img
-            src={asset("/ob-welcome.jpg")}
-            alt="People dropping waste into the organic, residual and inorganic bins"
+            src={heroIllustration}
+            alt="People dropping waste into the organic, residual and recyclable bins"
             className="w-full h-auto mix-blend-multiply select-none"
             fetchPriority="high"
           />
