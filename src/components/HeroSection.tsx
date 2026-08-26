@@ -15,8 +15,8 @@ export const HeroSection: React.FC = () => {
           </h1>
 
           <p className="p-lede mt-5 text-[#2C3A30] max-w-[520px]">
-            Sortla watches your bins and shows people exactly where each item belongs. Everything
-            runs on the device in the room. No cloud, no accounts, no rewiring.
+            A smarter way to sort, track, and understand your waste, making waste management simple
+            and accessible.
           </p>
 
           <button
@@ -24,7 +24,7 @@ export const HeroSection: React.FC = () => {
             onClick={scrollToExplore}
             className="mt-8 h-[56px] px-8 rounded-full bg-ink hover:bg-black text-white font-sans font-medium text-[17px] inline-flex items-center gap-2.5 transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] cursor-pointer group"
           >
-            <span>Let&rsquo;s explore</span>
+            <span>Let&rsquo;s Explore</span>
             <ArrowDown size={18} className="transition-transform group-hover:translate-y-0.5" />
           </button>
         </div>
